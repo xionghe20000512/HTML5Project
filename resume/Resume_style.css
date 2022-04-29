@@ -1,0 +1,131 @@
+body{
+    background-color: bisque;
+font-family:Geneva,Arial,Helvetica,sans-serif;
+margin:0px auto;
+max-width:100%;
+border-style:solid;
+border-color:#FFFFFF;
+}
+
+
+h1{
+   font-size:72px;
+    margin:0px;
+}
+
+h2{
+    font-size:24px;
+    margin:0px;
+    text-align:center;
+    color:#FFFFFF;
+}
+h3{
+    font-size:18px;
+    margin:0px;
+    text-align:center;
+}
+
+article{
+width:1000px;
+
+
+display:block;
+
+padding:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+-webkit-box-shadow:2px 2px 20px #888;
+-moz-box-shadow:2px 2px 20px #888;
+
+}
+
+
+article header{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    padding:5px;
+}
+article footer{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    padding:5px;
+}
+
+section{
+float:left;
+width:50%;
+display:block;
+}
+
+#aside1{
+    display:block;
+    float:left;
+    background-color:gold;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+#aside2{
+display:block;
+float:right;
+    background-color:gold;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+#aside1 header{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    background-color: #d4877d;
+}
+
+#aside2 header{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    background-color: #d4877d;
+}
+
+
+#aside1 h3{
+    margin:15px;
+    color:white;
+}
+#aside2 h3{
+    margin:15px;
+    color:white;
+}
+
+#aside1 p{
+    margin:15px;
+    color:white;
+    font-weight: bold;
+    font-style:italic;
+    color:cornflowerblue;
+}
+#aside2 p{
+    margin:15px;
+    color:white;
+    font-weight: bold;
+    font-style:italic;
+    color:cornflowerblue;
+}
+
+footer{
+    clear:both;
+    display:block;
+    background-color:#F47D31;
+    color:#FFFFFF;
+    text-align:center;
+    padding:15px;
+}
+footer h2{
+    font-size:14px;
+    color:white;
+}
